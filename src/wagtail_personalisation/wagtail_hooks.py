@@ -191,7 +191,7 @@ if WAGTAIL_VERSION >= (5, 2):
                 "%s variant" % (vm.segment.name),
                 reverse("wagtailadmin_pages:edit", args=[vm.variant_id]),
                 attrs={"title": _("Edit this variant")},
-                classname=("icon", "icon-edit"),
+                icon_name="edit",
                 priority=0,
             )
 
@@ -200,7 +200,7 @@ if WAGTAIL_VERSION >= (5, 2):
                 "%s variant" % (segment.name),
                 reverse("segment:copy_page", args=[page.pk, segment.pk]),
                 attrs={"title": _("Create this variant")},
-                classname=("icon", "icon-plus"),
+                icon_name="plus",
                 priority=100,
             )
 
@@ -208,7 +208,7 @@ if WAGTAIL_VERSION >= (5, 2):
             _("Create a new segment"),
             reverse("wagtail_personalisation_segment_modeladmin_create"),
             attrs={"title": _("Create a new segment")},
-            classname=("icon", "icon-snowflake"),
+            icon_name="snowflake",
             priority=200,
         )
 
