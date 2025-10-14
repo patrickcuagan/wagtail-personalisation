@@ -14,7 +14,7 @@
 
 {% block header_extra %}
     {% if user_can_create %}
-        <a href="{% url 'segment:toggle_segment_view' %}" class="button" title="{% trans "Switch view" %}">Switch {% block toggle_view %}{% endblock%}view</a>
+        <a href="{% url 'segment:toggle_segment_view' %}" class="button">{% block toggle_view %}{% endblock %}</a>
         {% include 'modeladmin/includes/button.html' with button=view.button_helper.add_button %}
     {% endif %}
 {% endblock %}
