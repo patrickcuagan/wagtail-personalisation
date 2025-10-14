@@ -300,7 +300,7 @@ class SegmentSummaryPanel(SummaryItem):
             """
             <li>
                 <svg class="icon icon-tag icon" aria-hidden="true"><use href="#icon-tag"></use></svg>
-                <a href="{}"><span>{}</span>{}</a>
+                <a href="{}"><span>{}</span> {}</a>
             </li>""".format(
                 target_url, segment_count, title
             )
@@ -319,7 +319,7 @@ class PersonalisedPagesSummaryPanel(PagesSummaryItem):
             """
             <li>
                 <svg class="icon icon-doc-empty icon" aria-hidden="true"><use href="#icon-doc-empty"></use></svg>
-                <a><span>{}</span>{}{}</a>
+                <a><span>{}</span> {}{}</a>
             </li>""".format(
                 page_count, title, pluralize(page_count)
             )
@@ -339,7 +339,7 @@ class VariantPagesSummaryPanel(PagesSummaryItem):
                 <li>
                     <svg class="icon icon-doc-empty icon" aria-hidden="true">\n
                     <use href="#icon-doc-empty"></use></svg>
-                    <a><span>{}</span>{}{}</a>
+                    <a><span>{}</span> {}{}</a>
                 </li>""".format(
                 page_count, title, pluralize(page_count)
             )
