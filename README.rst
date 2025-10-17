@@ -29,7 +29,7 @@ Wagtail Personalisation is a fully-featured personalisation module for
 - or parts of pages - based on segments whose rules are configured directly
 in the admin interface.
 
-.. _Wagtail CMS: http://wagtail.io/
+.. _Wagtail CMS: https://wagtail.org/
 
 
 .. image:: screenshot.png

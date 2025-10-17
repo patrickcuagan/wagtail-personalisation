@@ -6,7 +6,7 @@ Wagtail_ content management system. It allows editors and marketeers to create
 personalised experiences by harnessing the power of segmentation and rules.
 
 .. _Wagxperience: http://wagxperience.io
-.. _Wagtail: https://wagtail.io
+.. _Wagtail: https://wagtail.org/
 .. _Lab Digital: http://labdigital.nl
 
 In this guide, we'll take you step by step through the process of offering your
