@@ -19,6 +19,7 @@ htmlcov/
 docs/_build
 coverage.xml
 db.sqlite3
+sandbox/media
 
 tests/sandbox/assets
 node_modules
