@@ -18,7 +18,7 @@
    :height: 261
    :width: 300
    :scale: 50
-   :alt: Wagxperience
+   :alt: Prism logo
    :align: center
 
 Wagtail Personalisation
@@ -32,7 +32,8 @@ in the admin interface.
 .. _Wagtail CMS: https://wagtail.org/
 
 
-.. image:: screenshot.png
+.. image:: docs/_static/images/segment_dashboard_view.png
+    :alt: The segment dashboard view
 
 
 Instructions
